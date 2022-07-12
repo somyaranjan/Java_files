@@ -7,7 +7,15 @@ public class ArithmaticOperator {
         System.out.println("Enter value of B:");
         int b = sc.nextInt();
         sc.close();
-        System.out.println("Addition : "+(a+b));
-        System.out.println("Substraction : "+(a-b));
+        //addition operator
+        System.out.println(a+" + "+b+" = "+(a+b));
+        //substraction operator
+        System.out.println(a+" - "+b+" = "+(a-b));
+        //multiplication operator
+        System.out.println(a+" * "+b+" = "+(a*b));
+        //division operator
+        System.out.println(a+" / "+b+" = "+(a/b));
+        //remainder operator
+        System.out.println(a+" % "+b+" = "+(a%b));
     }
 }
